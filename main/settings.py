@@ -18,7 +18,6 @@ def env_list(name, default=""):
 
 SECRET_KEY = os.getenv("SECRET_KEY", "saveclip-development-secret-change-me")
 DEBUG = env_bool("DEBUG", False)
-print("SAVECLIP ALLOWED HOST;", ALLOWED_HOST)
 
 ALLOWED_HOSTS = env_list(
     "ALLOWED_HOSTS",
