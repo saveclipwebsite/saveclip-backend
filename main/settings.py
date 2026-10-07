@@ -22,7 +22,7 @@ DEBUG = env_bool("DEBUG", False)
 ALLOWED_HOSTS = env_list(
     "ALLOWED_HOSTS",
     "127.0.0.1,localhost",
-    "saveclip-backend.vercel.app",
+    ".vercel.app",
 )
 
 INSTALLED_APPS = [
